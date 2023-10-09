@@ -101,7 +101,7 @@ img {
     padding: 24px 0;
     display: block;
     position: relative;
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:active {
@@ -110,7 +110,7 @@ img {
 
 .header-menu-link:hover, .header-menu-link:focus {
     color: #404bbf ;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .header-menu-link:active::after{
@@ -147,11 +147,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover, .address-link:focus {
     color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .address-link:active {
@@ -197,19 +198,17 @@ img {
     padding: 16px 32px;
     border-radius: 4px;
     border: 1px black solid;
-    
     margin-top: 48px;
     margin-left: 480px;
-    
     min-width: 169px;
     height: 56px;
     border: none;
-  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .visually-hidden {
@@ -349,6 +348,7 @@ img {
    background-color: #4D5AE5;
     border-radius: 50%;
     margin-top: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-item-icons{
@@ -361,7 +361,7 @@ img {
 
 .team-item-box:hover, .team-item-box:focus{
     background-color: #404BBF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 
