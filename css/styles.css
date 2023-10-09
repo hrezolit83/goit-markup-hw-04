@@ -114,7 +114,7 @@ img {
 }
 
 .header-menu-link:active::after{
-    width: 48px;
+    width: 100%;
     height: 4px;
     content: "";
     position: absolute;
